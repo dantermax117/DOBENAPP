@@ -1,6 +1,6 @@
 # React + Vite
 Version de la Aplicacion WEB utilizando React en fase de prueba
-Version 1
+Version 1.0.0
 
 
 Currently, two official plugins are available:
