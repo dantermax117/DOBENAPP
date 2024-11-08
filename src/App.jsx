@@ -23,10 +23,11 @@ function App() {
             <Route path="/" element={<AuthLayout/>} >
               <Route index element={<Login/>}/>
               <Route path="registrar" element={<Registrar/>}/>
-              <Route path="insumos" element={<Insumos/>}/>
             </Route>
             <Route path="/doben" element={<Inicio/>} >
               <Route index element={<Stock/>}/>
+              <Route path="insumos" element={<Insumos/>}/>
+
             </Route>
           </Routes>
         </BrowserRouter>
