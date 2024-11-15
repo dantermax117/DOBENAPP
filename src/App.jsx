@@ -19,6 +19,7 @@ function App() {
   return (
     <>
         <BrowserRouter>
+
           <Routes>
             <Route path="/" element={<AuthLayout/>} >
               <Route index element={<Login/>}/>
@@ -27,9 +28,9 @@ function App() {
             <Route path="/doben" element={<Inicio/>} >
               <Route index element={<Stock/>}/>
               <Route path="insumos" element={<Insumos/>}/>
-
             </Route>
           </Routes>
+
         </BrowserRouter>
     </>
   )

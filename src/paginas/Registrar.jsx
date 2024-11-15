@@ -11,7 +11,7 @@ function registrar() {
   return (
 
       <>
-          <h1>registrar</h1>
+          <h1>registrar Usuario para DOBEN </h1>
       </>
   )
 }
